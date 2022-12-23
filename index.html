@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90a1380d79.js" crossorigin="anonymous"></script>
+    <title>College</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="Peter University"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-circle-xmark" onclick="hideMenu(navLinks)"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="openMenu(navLinks)"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Nepal's Biggest University</h1>
+            <p>Secure your future by joining our University</p>
+            <a href="" class="btn">Visit Us to know more</a>
+        </div>
+    </section>
+
+    <!--Courses we offer-->
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos mollitia, laborum porro, in odio eaque, aliquid adipisci veritatis eveniet doloremque sint quos dolor minima ipsa ipsam? Optio iusto atque consectetur.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi sunt tenetur expedita consequuntur. Rem laudantium ad accusantium. Sint, impedit autem praesentium ipsum voluptatem minima quisquam magnam enim laborum labore.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi sunt tenetur expedita consequuntur. Rem laudantium ad accusantium. Sint, impedit autem praesentium ipsum voluptatem minima quisquam magnam enim laborum labore.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi sunt tenetur expedita consequuntur. Rem laudantium ad accusantium. Sint, impedit autem praesentium ipsum voluptatem minima quisquam magnam enim laborum labore.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Campus-->
+    <section class="campus">
+        <h1>Our Branches</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veniam labore quasi delectus sapiente quidem
+            optio asperiores rem voluptatem fugit sequi quae deleniti accusantium nesciunt ipsum est consequatur, fuga
+            illum.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/kathmandu.jpg" alt="kathmandu">
+                <div class="layer">
+                    <h3>KATHMANDU</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/pokhara.jpg" alt="kathmandu">
+                <div class="layer">
+                    <h3>POKHARA</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/myagdi.jpg" alt="kathmandu">
+                <div class="layer">
+                    <h3>MYAGDI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities  -->
+    
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem maxime cum hic veritatis officia dolores accusamus! Quam architecto quas beatae perferendis quis quasi ratione labore ab, doloremque natus at.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/library.jpg" alt="library">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum ab iste vitae obcaecati, necessitatibus id ullam nemo sed, hic perferendis ipsum quas blanditiis! Voluptates a repellat molestias minus distinctio!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/futsal.webp" alt="library">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum ab iste vitae obcaecati, necessitatibus id ullam nemo sed, hic perferendis ipsum quas blanditiis! Voluptates a repellat molestias minus distinctio!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/canteen.jpg" alt="library">
+                <h3>Healthiest Canteen</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum ab iste vitae obcaecati, necessitatibus id ullam nemo sed, hic perferendis ipsum quas blanditiis! Voluptates a repellat molestias minus distinctio!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h1>What our students say</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ea facere praesentium quasi esse pariatur nobis reprehenderit error est quam veritatis fugit minima excepturi laboriosam neque voluptas corrupti, tenetur vel!</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="./images/#.jpg" alt="user1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="./images/user2.jpg" alt="user2">
+            </div>
+        </div>
+    </section>
+
+    <!--Javascript for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+
+        function openMenu() {
+            navLinks.classList.toggle('active')
+        }
+
+        function hideMenu() {
+            navLinks.classList.toggle('active')
+        }
+
+    </script>
+</body>
+
+</html>
